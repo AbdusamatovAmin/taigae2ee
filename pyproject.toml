@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taigae2ee"
+version = "0.1.2"
+description = "Лёгкая E2EE-библиотека на ГОСТ (обёртка над PyGOST) с простым API."
+authors = [{name = "Amin Abdusamatov"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["e2ee", "encryption", "gost", "kuznechik", "streebog", "cryptography", "russia", "taiga"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["gostcrypto>=1.2.5"]   # проверенная библиотека
+
+[project.urls]
+Homepage = "https://github.com/AbdusamatovAmin/taigae2ee"
+Repository = "https://github.com/AbdusamatovAmin/taigae2ee"
