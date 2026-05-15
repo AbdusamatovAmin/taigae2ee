@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "taigae2ee"
-version = "0.1.2"
+version = "0.1.5"
 description = "Лёгкая E2EE-библиотека на ГОСТ (обёртка над PyGOST) с простым API."
 authors = [{name = "Amin Abdusamatov"}]
 license = {file = "LICENSE"}
